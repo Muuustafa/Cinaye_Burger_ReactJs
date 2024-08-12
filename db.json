@@ -1,0 +1,71 @@
+{
+  "burgers": [
+    {
+      "nom": "Cheese Burger",
+      "prix": 5.99,
+      "image": "/img/img1.jpg.jpeg",
+      "description": "Delicious cheese burger.",
+      "id": "1",
+      "archived": false
+    },
+    {
+      "id": "2",
+      "nom": "Veggie Burger",
+      "prix": 4.99,
+      "image": "/img/img2.jpg.jpeg",
+      "description": "Tasty burgers!",
+      "archived": false
+    },
+    {
+      "nom": "Burger Local",
+      "prix": 3.6,
+      "image": "/img/img3.jpg.jpeg",
+      "description": "Burger Local, localement appétissant!",
+      "id": "5ff8",
+      "archived": false
+    },
+    {
+      "nom": "Mini Burger",
+      "prix": 2.99,
+      "image": "/img/img4.jpg.jpeg",
+      "description": "Petit mais savoureux mini burger.",
+      "id": "3",
+      "archived": false
+    }
+  ],
+  "commandes": [
+    {
+      "id": "b85b",
+      "nomClient": "diop",
+      "prenomClient": "dame",
+      "telephoneClient": "760249583",
+      "burgers": [
+        1
+      ],
+      "etat": "Payée",
+      "date": "2024-08-02T00:24:08.309Z"
+    },
+    {
+      "id": "2ad5",
+      "nomClient": "diop",
+      "prenomClient": "maramata",
+      "telephoneClient": "760249583",
+      "burgers": [
+        3
+      ],
+      "etat": "Annulée",
+      "date": "2024-08-02T00:24:32.901Z"
+    },
+    {
+      "id": "9644",
+      "nomClient": "diop",
+      "prenomClient": "maramata",
+      "telephoneClient": "760249583",
+      "burgers": [
+        2
+      ],
+      "etat": "En cours",
+      "date": "2024-08-02T22:01:20.087Z"
+    }
+  ]
+}

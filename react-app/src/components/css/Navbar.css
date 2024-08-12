@@ -1,0 +1,23 @@
+.custom-navbar {
+    background-color: #ffeb3b;
+    padding: 15px;
+  }
+  
+  .navbar-brand img.logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .navbar-nav .nav-item .custom-nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-item .custom-nav-link:hover {
+    color: #d9534f; /* Changer la couleur lors du survol */
+    text-decoration: none;
+  }
+  

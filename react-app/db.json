@@ -1,0 +1,213 @@
+{
+  "burgers": [
+    {
+      "id": "1",
+      "nom": "BURGER KING",
+      "prix": 1500,
+      "image": "/img/imh9.jpg",
+      "description": "C'est le roi des burgers savoureux ..."
+    },
+    {
+      "id": "2",
+      "nom": "QUEEN BURGER",
+      "prix": 1700,
+      "image": "/img/img10.jpg",
+      "description": "La déesse des burgers pour les reines"
+    },
+    {
+      "id": "3",
+      "nom": "SUPER BUGER MAX",
+      "prix": 2000,
+      "image": "/img/imh8.jpg",
+      "description": "Le super burger complet dont tu finiras jamais même si t'as une faim de loup"
+    },
+    {
+      "id": "4",
+      "nom": "MINI BURGER",
+      "prix": 1400,
+      "image": "/img/img2.jpeg",
+      "description": "Le petit modèle des burgers pour les enfants terribles"
+    },
+    {
+      "id": "5",
+      "nom": "THE SAVAGE BURGER",
+      "prix": 1800,
+      "image": "/img/img6.jpg",
+      "description": "Le burger épicé et succulent pour les pros burgers"
+    },
+    {
+      "id": "6",
+      "nom": "THE BURGER BOOM",
+      "prix": 1700,
+      "image": "/img/img1.jpeg",
+      "description": "Tu risques d'exploser en le goutant miammm..."
+    },
+    {
+      "id": "7",
+      "nom": "BURGER LITE",
+      "prix": 1300,
+      "image": "/img/img4.jpeg",
+      "description": "Le tout simple des burgers"
+    },
+    {
+      "id": "8",
+      "nom": "CLASSIQUE BURGER",
+      "prix": 1400,
+      "image": "/img/imgg5.jpg",
+      "description": "C'est le meilleur burger actuellement et bien noté"
+    },
+    {
+      "id": "9",
+      "nom": "CHEESE BURGER",
+      "prix": 1600,
+      "image": "/img/img3.jpeg",
+      "description": "Succuleux, Savoureux et Sampalli bong bong"
+    }
+  ],
+  "commandes": [
+    {
+      "id": "1",
+      "nomClient": "DIOP",
+      "prenomClient": "Momy",
+      "telephoneClient": "789402234",
+      "burgerNom": "QUEEN BURGER",
+      "etat": "Payée",
+      "date": "2024-08-11T13:51:33.679Z"
+    },
+    {
+      "id": "2",
+      "nomClient": "FAYE",
+      "prenomClient": "Birame",
+      "telephoneClient": "776854933",
+      "burgerNom": "SUPER BUGER MAX",
+      "etat": "Payée",
+      "date": "2024-08-11T14:09:26.076Z"
+    },
+    {
+      "id": "3",
+      "nomClient": "DIA",
+      "prenomClient": "Khadidiatou ",
+      "telephoneClient": "763849599",
+      "burgerNom": "SUPER BUGER MAX",
+      "etat": "Annulée",
+      "date": "2024-08-11T14:33:16.903Z"
+    },
+    {
+      "id": "4",
+      "nomClient": "THIOMBANE",
+      "prenomClient": "Francois",
+      "telephoneClient": "783329343",
+      "burgerNom": "BURGER KING",
+      "etat": "En cours",
+      "date": "2024-08-11T14:33:42.319Z"
+    },
+    {
+      "id": "5",
+      "nomClient": "NDIAYE",
+      "prenomClient": "Binta",
+      "telephoneClient": "335273394",
+      "burgerNom": "THE SAVAGE BURGER",
+      "etat": "Payée",
+      "date": "2024-08-11T14:34:12.135Z"
+    },
+    {
+      "id": "6",
+      "nomClient": "GIRESSE",
+      "prenomClient": "Alain",
+      "telephoneClient": "771568796",
+      "burgerNom": "MINI BURGER",
+      "etat": "Payée",
+      "date": "2024-08-11T14:34:34.888Z"
+    },
+    {
+      "id": "7",
+      "nomClient": "DIALLO",
+      "prenomClient": "Marietou",
+      "telephoneClient": "709821233",
+      "burgerNom": "QUEEN BURGER",
+      "etat": "Annulée",
+      "date": "2024-08-11T14:35:08.216Z"
+    },
+    {
+      "id": "8",
+      "nomClient": "LO",
+      "prenomClient": "Modou",
+      "telephoneClient": "789321000",
+      "burgerNom": "BURGER LITE",
+      "etat": "Payée",
+      "date": "2024-08-11T15:05:17.127Z"
+    },
+    {
+      "id": "9",
+      "nomClient": "FAYE",
+      "prenomClient": "Sylvain",
+      "telephoneClient": "778231100",
+      "burgerNom": "CHEESE BURGER",
+      "etat": "En cours",
+      "date": "2024-08-11T15:05:41.088Z"
+    },
+    {
+      "id": "10",
+      "nomClient": "DIOP",
+      "prenomClient": "Mame ABY",
+      "telephoneClient": "709219922",
+      "burgerNom": "THE BURGER BOOM",
+      "etat": "En cours",
+      "date": "2024-08-11T15:06:10.773Z"
+    },
+    {
+      "id": "11",
+      "nomClient": "SYLLA",
+      "prenomClient": "Farmata",
+      "telephoneClient": "778829112",
+      "burgerNom": "SUPER BUGER MAX",
+      "etat": "En cours",
+      "date": "2024-08-11T15:06:42.916Z"
+    },
+    {
+      "id": "12",
+      "nomClient": "SAGNA",
+      "prenomClient": "Ibrahima",
+      "telephoneClient": "778921100",
+      "burgerNom": "BURGER LITE",
+      "etat": "Payée",
+      "date": "2024-08-11T15:07:14.561Z"
+    },
+    {
+      "id": "13",
+      "nomClient": "BOSS",
+      "prenomClient": "SIRUIS",
+      "telephoneClient": "771568796",
+      "burgerNom": "SUPER BUGER MAX",
+      "etat": "Payée",
+      "date": "2024-08-10T15:11:37.765Z"
+    },
+    {
+      "id": "14",
+      "nomClient": "HERNANDEZ",
+      "prenomClient": "Carlos",
+      "telephoneClient": "771568796",
+      "burgerNom": "THE BURGER BOOM",
+      "etat": "En cours",
+      "date": "2024-08-11T00:57:25.236Z"
+    },
+    {
+      "id": "15",
+      "nomClient": "BA",
+      "prenomClient": "Ndeye Racky",
+      "telephoneClient": "771568796",
+      "burgerNom": "BURGER KING",
+      "etat": "En cours",
+      "date": "2024-08-11T02:01:18.751Z"
+    },
+    {
+      "id": "16",
+      "nomClient": "LO",
+      "prenomClient": "Makhmadane",
+      "telephoneClient": "771568796",
+      "burgerNom": "THE SAVAGE BURGER",
+      "etat": "Payée",
+      "date": "2024-08-11T18:39:54.316Z"
+    }
+  ]
+}

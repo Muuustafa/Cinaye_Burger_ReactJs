@@ -1,0 +1,29 @@
+.client-accueil {
+  background-image: url('/public/img/img11.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .content {
+    text-align: center;
+    justify-content: center;
+    text-justify: auto;
+    justify-items: center;
+    margin: auto;
+  }
+  
+  .content h2 {
+    font-family: 'cursive';
+    font-size: 2.5rem;
+    color: #856404; /* Couleur du texte */
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: #856404; /* Couleur du texte */
+  }
+  

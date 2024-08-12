@@ -1,0 +1,55 @@
+.accueil-container {
+  background-image: url('/public/img/img11.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+}
+
+.accueil-title {
+  font-family: monospace;
+  font-size: 3.4rem;
+  color: white; /* Darker yellow for text */
+}
+
+.accueil-card {
+  background-color: rgba(255, 204, 0, 0.3); /* Semi-transparent yellow background for cards */
+  color: #fff; /* White text color */
+  border: none;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accueil-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-link {
+  color: #878649; /* White color for link text */
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: transparent; /* Fully transparent background for links */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.card-link:hover {
+  color: #39362d; /* Darker yellow on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Light transparent background on hover */
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .accueil-card {
+    margin-bottom: 20px;
+  }
+}

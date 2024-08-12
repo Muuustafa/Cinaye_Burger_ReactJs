@@ -1,0 +1,31 @@
+.gestionnaire-accueil {
+  background-image: url('/public/img/img11.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'cursive';
+  font-size: 3.4rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 3.4rem;
+  color: white;
+}
